@@ -1,5 +1,5 @@
 
-#**Web Scraping and Excel Export**
+# **Web Scraping and Excel Export**
 
 This Node.js script performs web scraping to extract table data from a webpage and saves it into an Excel file. It utilizes Axios for HTTP requests, Cheerio for HTML parsing, and XLSX for Excel file manipulation.
 
@@ -8,13 +8,13 @@ Before running the script, make sure you have Node.js installed on your system. 
 
 npm install axios cheerio xlsx
 
-##**Usage**
+## **Usage**
 1. Clone or download the repository to your local machine.
 2. Navigate to the directory containing the script.
 3. Run the script using Node.js:
     node script.js
    
-##**Script Overview**
+## **Script Overview**
 
 The script consists of the following main components:
 
@@ -26,5 +26,5 @@ The script consists of the following main components:
 
 4. Main Execution: The script loops through each alphabet and scrapes data for each page. It then saves the data into an Excel file named station_data.xlsx.
 
-###**Disclaimer**
+### **Disclaimer**
 This script is provided for educational purposes only. Ensure compliance with website terms of service and legal requirements before using it for web scraping.
